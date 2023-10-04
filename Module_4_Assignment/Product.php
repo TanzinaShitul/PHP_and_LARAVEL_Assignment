@@ -15,15 +15,14 @@ class Product {
     }
 
     public function showDetails() {
-        echo "Product Details:\n";
-        echo "- ID: {$this->id}\n";
-        echo "- Name: {$this->name}\n";
-        echo "- Price: {$this->getFormattedPrice()}\n";
+        echo "Product Details:". PHP_EOL;
+        echo "- ID: " . $this->id . PHP_EOL;
+        echo "- Name: " . $this->name . PHP_EOL;
+        echo "- Price: " . $this->getFormattedPrice() . PHP_EOL;
     }
 }
 
 // Test the Product class
 $product = new Product(1, 'T-shirt', 19.99);
 $product->showDetails();
-
 ?>
