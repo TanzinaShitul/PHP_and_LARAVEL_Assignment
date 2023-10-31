@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+.delete-link {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.delete-link:hover {
+    color: darkred;
+}
+
+select, input, button {
+    margin: 5px;
+}
+
+#addUserButton {
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#logOutButton{
+    background-color: red;
+     color: white; 
+     border: none;
+     padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,4 @@
+admin, tanzina@gmail.com, tanzina, akther, 1234
+user, shitul@gmail.com, Shitul, Tanzina, 4321
+manager, manager@gmail.com, Nahid, Hasan, 12345
+user, toma@gmail.com, Toma, Tamanna, 54321
