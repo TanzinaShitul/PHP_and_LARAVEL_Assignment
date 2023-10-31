@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="form-group">
-                <label for="lastname">First name</label>
+                <label for="lastname">Last name</label>
                 <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Enter lastname"
                     required>
 

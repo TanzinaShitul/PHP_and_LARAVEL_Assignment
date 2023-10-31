@@ -2,51 +2,6 @@
 session_start();
 $filename = "./data/users.txt";
 
-//     $selectedUser = $_POST['user'];
-//     $newRole = $_POST['newRole'];
-
-//     if ($selectedUser === $_SESSION['email']) {
-//         echo "You cannot update your own role.";
-//     } else {
-//         $lines = file($filename);
-
-//         if ($lines !== false) {
-//             $updatedData = [];
-
-//             foreach ($lines as $line) {
-//                 $values = array_map('trim', explode(",", $line));
-
-//                 if (count($values) >= 5) {
-//                     list($role, $email, $firstname, $lastname, $newUserPassword) = $values;
-
-//                     if ($email === $selectedUser) {
-//                         $role = $newRole;
-//                     }
-
-//                     $updatedData[] = "$role, $email, $firstname, $lastname, $newUserPassword";
-//                 }
-//             }
-
-//             if (file_put_contents($filename, implode("\n", $updatedData)) !== false) {
-//                 echo '
-// 		        <script>
-// 		    	alert("Role updated successfully.");
-//                 window.location.href = "index.php";
-// 		        </script>
-// 		        ';
-
-//             } else {
-//                 echo '
-// 		        <script>
-// 		    	alert("Failed to update role.");
-//                 window.location.href = "index.php";
-// 		        </script>
-// 		        ';
-//             }
-//         }
-//     }
-// }
-
 // Add a new user
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['newUserEmail'])) {
